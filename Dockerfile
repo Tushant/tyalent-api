@@ -8,8 +8,6 @@ LABEL maintainer="Tushant Khatiwada"
 # setting environment variables
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
-
-# set working directory which will be inside ubuntu
 WORKDIR /code
 
 #### Install a dependency ####
